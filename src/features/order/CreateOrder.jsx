@@ -45,7 +45,7 @@ function CreateOrder() {
   return (
     <div className="px-4 py-6">
       <h2 className="mb-8 flex-col text-xl font-semibold sm:flex-row sm:items-center">
-        Ready to order? Let&aposs go!
+        Ready to order? Let's go!
         <button onClick={() => dispatch(fetchAddress())}> Get Postion </button>
       </h2>
 

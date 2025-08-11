@@ -31,8 +31,6 @@ function Order() {
     cart,
   } = order;
 
-  console.log(order.priority);
-
   const deliveryIn = calcMinutesLeft(estimatedDelivery);
 
   return (

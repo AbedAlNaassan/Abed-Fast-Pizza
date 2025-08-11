@@ -13,8 +13,10 @@ function UpdateOrder({ Order }) {
 }
 
 export default UpdateOrder;
+
 export async function action({ request, params }) {
   const data = { priority: true };
+  
   await updateOrder(params.orderId, data);
 
   return null;

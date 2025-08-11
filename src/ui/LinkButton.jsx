@@ -3,6 +3,7 @@ import { useNavigate } from "react-router-dom";
 
 function LinkButton({ children, to }) {
   const navigate = useNavigate();
+
   if (to === "-1")
     return (
       <button
